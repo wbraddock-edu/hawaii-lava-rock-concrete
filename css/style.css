@@ -61,7 +61,7 @@ body { font-family: 'Source Sans 3', sans-serif; background: var(--bg); color: v
 .btn-ghost:hover { background: rgba(255,255,255,0.22); }
 
 .hero { min-height: 90vh; display: flex; align-items: center; background: linear-gradient(135deg, #0a0a0a 0%, #2c2c2c 60%, var(--primary) 100%); position: relative; overflow: hidden; }
-.hero-bg { position: absolute; inset: 0; background-image: url('https://picsum.photos/1280/900?random=1801'); background-size: cover; background-position: center; opacity: 0.2; }
+.hero-bg { position: absolute; inset: 0; background-image: url('../images/hero.png'); background-size: cover; background-position: center; opacity: 0.2; }
 .hero-content { position: relative; z-index: 2; max-width: 1280px; margin: 0 auto; padding: 80px 20px; }
 .hero-badge { display: inline-block; background: var(--accent); color: #fff; padding: 4px 16px; font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 20px; }
 .hero h1 { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: clamp(3rem, 8vw, 6rem); color: #fff; line-height: 0.95; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.02em; }
